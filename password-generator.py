@@ -9,12 +9,6 @@ def generate_password(length):
 	return password
 
 # Specify the desired password length
-# password_length = 12
-
-""" password_length = int(input("Specify a password length: "))
-while password_length < 8:
-	password_length = int(input("Specify a password length: ")) """
-
 while True:
 	password_length = int(input("Specify a password length (min 8 - max 25): "))
 	if password_length < 8:
